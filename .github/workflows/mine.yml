@@ -1,0 +1,28 @@
+            - name: Minecraft-Packr
+  # You may pin to the exact commit or the version.
+  # uses: Sindercube/Packr@da936ea4a45ffa4292d86c7832c2c04006ae8504
+  uses: Sindercube/Packr@v2
+  with:
+    # What YAML file to generate the pack from.
+    filename: # optional
+    # The name of the release
+    release-name: # optional, default is New Release
+    # The version of the release
+    release-version: # optional, default is 
+    # The changelog for the release
+    changelog: # optional, default is 
+    # Whether the release is an early, preview release
+    prerelease: # optional, default is false
+    # The GitHub repository to publish the release to
+    github-repo: # optional, default is 
+    # The Modrinth project ID to publish the release to
+    modrinth-id: # optional, default is 
+    # The Curseforge project ID to publish the release to
+    curseforge-id: # optional, default is 
+    # The GitHub access token used to publish the release
+    github-token: # optional, default is 
+    # The Modrinth access token used to publish the release
+    modrinth-token: # optional, default is 
+    # The Curseforge access token used to publish the release
+    curseforge-token: # optional, default is 
+          

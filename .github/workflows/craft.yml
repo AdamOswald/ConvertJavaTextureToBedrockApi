@@ -1,0 +1,10 @@
+            - name: Download Minecraft jar
+  # You may pin to the exact commit or the version.
+  # uses: meadowsys/action-get-mc-jar@ffebad0b5a274dec21f8ecf374978f0c5dc320c3
+  uses: meadowsys/action-get-mc-jar@v1.0.1
+  with:
+    # The Minecraft version to download
+    mcversion: # optional, default is latest
+    # The name of the file to save to, default "minecraft-<version>.jar" (if no extension is provided, it will be set as .jar)
+    filename: # optional, default is defaultnamelol
+          
