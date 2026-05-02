@@ -24,7 +24,7 @@
     "homepage": "https://github.com/ModifiedCommand/ConvertJavaTextureToBedrockApi#readme",
     "dependencies": {
         "@modifiedcommand/convert-base-api": "1.0.10",
-        "uuid": "3.4.0"
+        "uuid": "14.0.0"
     },
     "devDependencies": {},
     "engines": {
